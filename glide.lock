@@ -1,6 +1,8 @@
-hash: 7fa61c5398190772aef05efe4086119fa6b56fe91aacb6df4c7ae19aa3702138
-updated: 2017-04-27T14:00:58.074124269-07:00
+hash: cc2184a74c7eb1908f32a722a0df6aaafb9ea58d7734729bb754ab2e5652499c
+updated: 2017-04-27T14:04:08.760240394-07:00
 imports:
+- name: github.com/Pallinder/go-randomdata
+  version: 8c3362a5e6781e0d1046f1267b3c1f19b2cde334
 - name: github.com/satori/go.uuid
   version: 879c5887cd475cd7864858769793b2ceb0d44feb
 testImports: []
