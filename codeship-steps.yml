@@ -1,0 +1,12 @@
+  - type: parallel
+    name: testing
+    steps:
+      - type: serial
+        name: prepare_app
+        steps:
+          - name: packagesanddependencies_cleanup
+            service: packageanddependenciesapp
+            command: go clean
+          - name: packagesanddependencies_build
+            service: packageanddependenciesapp
+            command: go build

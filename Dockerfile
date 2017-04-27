@@ -1,9 +1,6 @@
-FROM golang:1.8-alpine
+FROM adron/golang-glide
 
 ENV GOPATH /go
-
-RUN apk add --update git && rm -rf /var/cache/apk/* && \
-    go get github.com/Masterminds/glide
 
 ADD . /go/src/github.com/Adron/PackagesAndDependencies
 WORKDIR /go/src/github.com/Adron/PackagesAndDependencies
