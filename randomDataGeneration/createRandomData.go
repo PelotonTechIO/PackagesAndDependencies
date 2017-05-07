@@ -1,4 +1,4 @@
-package randomdata
+package randomDataGeneration
 
 import (
 	// This is a standard Golang library. Including with installation.
