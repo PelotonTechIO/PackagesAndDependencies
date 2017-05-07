@@ -1,5 +1,5 @@
 package libraryTwo
 
-func libraryOneAddStuff () (float64) {
-	return 10 * 20
+func AddStuff (aNumber float64) (float64) {
+	return 20 * aNumber
 }

@@ -8,7 +8,7 @@ import (
 	"github.com/Pallinder/go-randomdata"
 )
 
-func main() {
+func PrintOutLotsaRandomStuff() {
 	// Creating UUID Version 4
 	u1 := uuid.NewV4()
 	fmt.Printf("UUIDv4: %s\n", u1)
@@ -133,9 +133,4 @@ func main() {
 
 	// Print full date >= Monday 01 Aug 2016 and <= Monday 22 Aug 2016
 	fmt.Println(randomdata.FullDateInRange("2016-08-01", "2016-08-22"))
-
-	// Get a complete and randomised profile of data generally used for users
-	// There are many fields in the profile to use check the Profile struct definition in fullprofile.go
-	profile := randomdata.GenerateProfile(randomdata.Male | randomdata.Female | randomdata.RandomGender)
-	fmt.Printf("The new profile's username is: %s and password (md5)", profile.Login.Username, profile.Login.Md5)
 }
