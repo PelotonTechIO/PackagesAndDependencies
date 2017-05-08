@@ -1,10 +1,6 @@
-hash: 54e621c558203b402381bd231789f5704409db9e81c6e3cd22feef64158f9283
-updated: 2017-05-07T12:49:54.621787558-07:00
+hash: cc2184a74c7eb1908f32a722a0df6aaafb9ea58d7734729bb754ab2e5652499c
+updated: 2017-05-08T01:46:25.044257747-07:00
 imports:
-- name: github.com/adron/PackagesAndDependencies
-  version: ba8a741e4a193f6df4b446f1fd80d7ba5a6ac040
-  subpackages:
-  - stringutil
 - name: github.com/Pallinder/go-randomdata
   version: 8c3362a5e6781e0d1046f1267b3c1f19b2cde334
 - name: github.com/satori/go.uuid
