@@ -1,8 +1,11 @@
-package: github.com/adron/PackagesAndDependencies
+package: github.com/PelotonTechIO/PackagesAndDependencies
 import:
-- package: github.com/satori/go.uuid
-  version: ^1.1.0
 - package: github.com/Pallinder/go-randomdata
 - package: github.com/adron/PackagesAndDependencies
   subpackages:
+  - libraryOne
+  - libraryTwo
+  - randomDataGeneration
   - stringutil
+- package: github.com/satori/go.uuid
+  version: ^1.1.0
