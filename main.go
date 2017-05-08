@@ -4,10 +4,10 @@ import (
 	// This is a standard Golang library. Including with installation.
 	"fmt"
 	// These are references to import code files within this project.
-	"github.com/adron/PackagesAndDependencies/libraryOne"
-	"github.com/adron/PackagesAndDependencies/stringutil"
-	"github.com/adron/PackagesAndDependencies/libraryTwo"
-	"github.com/adron/PackagesAndDependencies/randomDataGeneration"
+	"github.com/PelotonTechIO/PackagesAndDependencies/libraryOne"
+	"github.com/PelotonTechIO/PackagesAndDependencies/libraryTwo"
+	"github.com/PelotonTechIO/PackagesAndDependencies/randomDataGeneration"
+	"github.com/PelotonTechIO/PackagesAndDependencies/stringutil"
 )
 
 func main() {
