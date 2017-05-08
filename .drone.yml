@@ -1,6 +1,5 @@
 build:
   image: adron/golang-glide
   commands:
-    - go get
+    - go clean
     - go build
-    - go test
