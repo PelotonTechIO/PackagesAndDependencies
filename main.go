@@ -4,6 +4,7 @@ import (
 	// This is a standard Golang library. Including with installation.
 	"fmt"
 	// These are references to import code files within this project.
+	"github.com/PelotonTechIO/PackagesAndDependencies/anotherLib"
 	"github.com/PelotonTechIO/PackagesAndDependencies/libraryOne"
 	"github.com/PelotonTechIO/PackagesAndDependencies/libraryTwo"
 	"github.com/PelotonTechIO/PackagesAndDependencies/randomDataGeneration"
@@ -23,4 +24,7 @@ func main() {
 
 	randomDataGeneration.PrintOutLotsaRandomStuff()
 
+	fmt.Println(anotherLib.ReturnThing())
+
+	anotherLib.ReturnThing()
 }

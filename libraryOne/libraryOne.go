@@ -1,6 +1,11 @@
 package libraryOne
 
-func DisplayCombinedMessage(thisMessage string) (string) {
+type AnInterfaceOfSorts interface {
+	ThisThing(string) string
+	ThatThing(string) int
+}
+
+func DisplayCombinedMessage(thisMessage string) string {
 	var s string
 	s = "The message is "
 	s += thisMessage
