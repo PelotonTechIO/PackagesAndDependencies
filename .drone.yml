@@ -1,5 +1,6 @@
-build:
-  image: adron/golang-glide
-  commands:
-    - go clean
-    - go build
+pipeline:
+  build:
+    image: adron/golang-glide
+    commands:
+      - go clean
+      - go build
