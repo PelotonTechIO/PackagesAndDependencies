@@ -2,6 +2,8 @@ pipeline:
   build:
     image: adron/golang-glide
     commands:
+      - glide install
+      - glide up
       - go clean
       - go build
       - go run main.go
