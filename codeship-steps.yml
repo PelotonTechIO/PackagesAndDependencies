@@ -10,3 +10,6 @@
           - name: packagesanddependencies_build
             service: packageanddependenciesapp
             command: go build
+          - name: packagesanddependencies_run
+            service: packageanddependenciesapp
+            command: go run main.go

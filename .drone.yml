@@ -3,5 +3,5 @@ pipeline:
     image: adron/golang-glide
     commands:
       - go clean
-      - go get
       - go build
+      - go run main.go
